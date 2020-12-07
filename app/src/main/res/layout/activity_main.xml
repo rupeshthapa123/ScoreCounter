@@ -44,18 +44,30 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="3 Point"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="32sp"
+            android:background="@color/purple_700"
             android:layout_margin="16dp"/>
         <Button
             android:id="@+id/APoint2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="2 Point"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="32sp"
+            android:background="@color/purple_700"
             android:layout_margin="16dp" />
         <Button
             android:id="@+id/APoint1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="1 Point"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="32sp"
+            android:background="@color/purple_700"
             android:layout_margin="16dp" />
     </LinearLayout>
 
@@ -89,30 +101,48 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="3 Point"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="32sp"
+            android:background="@color/purple_700"
             android:layout_margin="16dp" />
         <Button
             android:id="@+id/BPoint2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="2 Point"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="32sp"
+            android:background="@color/purple_700"
             android:layout_margin="16dp" />
         <Button
             android:id="@+id/BPoint1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="1 Point"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="32sp"
+            android:background="@color/purple_700"
             android:layout_margin="16dp" />
     </LinearLayout>
 
     </LinearLayout>
+
     <Button
         android:id="@+id/ResetButton"
-        android:layout_width="wrap_content"
+        android:layout_width="146dp"
         android:layout_height="wrap_content"
-        android:text="Reset"
-        android:layout_marginBottom="50dp"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true">
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="34dp"
+        android:background="@color/purple_700"
+        android:text="Reset"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="30sp">
+
     </Button>
 
 </RelativeLayout>
